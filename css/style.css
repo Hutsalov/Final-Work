@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;   
+        
+}
+@font-face {
+    font-family: QuiteChocolatey;
+    src: url(../font/QuiteChocolatey.ttf);
+}
+@font-face {
+    font-family: Couture;
+    src: url(../font/COUTURE.ttf);
+}
+body{
+    margin: 0 auto; 
+}
+header{    
+    background-color: #c62314;  
+}
+.menu{
+    background-image: url(../Final/Layer.png);
+    height: 690px;  
+    max-width: 1200px;    
+    margin: 0 auto;  
+}
+.menu-logo{
+    display: flex;   
+    justify-content:space-between; 
+    padding-top: 75px;
+    align-items: flex-end;
+    max-width: 1010px;
+    margin-left: 85px;
+    
+}
+.menu-item{
+    display: flex;   
+}
+
+.logo{
+    font-family: QuiteChocolatey;
+    font-size: 88px;
+    line-height: 32px; 
+}
+.logo a{
+    text-decoration: none; 
+    color: white;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;  
+} 
+
+.nav li > a{
+    text-decoration: none;      
+    padding: 10px;
+}
+
+.nav li a{   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+    line-height: 22px;
+    margin-left: 20px;
+    cursor:pointer;  
+}
+.hover:hover{
+color: white;
+background-color: #130e27;
+border-radius: 10px;
+}
+.text{
+    display: flex;
+    flex-direction: column;    
+    max-width:525px;
+    justify-content:space-evenly;
+    margin: 165px 0px 0px 110px;   
+}
+.car{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 80px;
+    margin: 0px;
+    color: #130e27;
+    letter-spacing: 0px;
+}
+.car-now{
+    color: white;  
+}
+.lor{
+    font-family: 'PT Serif', serif;
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+main{    
+    margin: 0 auto;  
+}
+
+.box-item{
+    max-width: 1200px;     
+    justify-content: space-evenly;
+    margin: 0 auto; 
+
+}
+.ourservis{
+    max-width: 1200px;     
+    margin-left: 110px; 
+    margin-top: 50px;
+    font-family: Couture;
+    font-size: 50px;
+    line-height: 80px;
+}
+.container-icon{    
+    max-width: 1010px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;  
+    margin-left: 110px;        
+}
+.our{
+    color: #c62314;
+
+}
+.serv {
+    color: #130e27;
+}
+
+
+.item{
+    margin-top: 85px;
+    margin-right: 87px;
+}
+.icon{
+    text-align: center;
+    font-size: 150px;
+    color: #130e27;
+    
+}
+.about-icon{
+    text-align: center;
+    font-size: 20px;
+    height: 45px;
+    width: 180px;
+    line-height: 28px;
+    font-family: 'PT Serif', serif;
+    margin-top: 53px;
+    color:#161616
+}
+
+.main-fot{
+    margin-top: 70px;
+    height: 120px;
+    background-color: #130e27;
+
+}
+.box-fot {
+    max-width: 980px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    
+    
+}
+.we-are {    
+    width: 640px;
+    height: 50px;
+    color: white;
+    margin-top: 35px;
+    cursor: pointer;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+.btn-our {
+    margin-top: 35px;
+    width: 210px;
+    border-radius: 10px;    
+    font-size: 22px;
+    line-height: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #c62314;
+    text-decoration: none;
+    border: 0px;
+}
+
+.container-footer {
+    background-color:#efefef;
+    margin: 0 auto;
+    height: 685px;
+}
+
+.pricing {
+    background-color:#efefef;
+    margin: 0px;
+    padding-top: 60px;
+    text-align: center;
+    color: #130e27;
+    font-size: 50px;
+    line-height: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.footer-pricing {
+    margin: 0 auto;
+    max-width: 1010px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+.footer-plans {
+    height: 395px;
+    width: 315px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 7px -5px 11px -1px #23639433;
+
+}
+
+ul{
+    padding: 0px;
+}
+.name-plan{ 
+    margin: 0px;
+    padding: 25px 0px 0px 0px;
+    font-size: 22px;    
+    line-height: 28px;
+    font-family: 'PT Serif', serif;
+    color:#262626
+}
+.price-plan{
+    margin: 20px 0px 30px 0px;    
+    color: #c62314;
+    font-size: 60px;
+    line-height: 80px;
+    font-family: 'Montserrat',serif;
+    font-weight: bold;
+}
+.about-plan{
+    margin: 0px;    
+    list-style-type: none;
+    font-size: 20px;    
+    line-height: 28px;
+    font-family: 'PT Serif', serif;
+    color:#262626;   
+}
+.plan-btn{
+    
+    width: 205px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #130e27;
+    color: white;
+    font-size: 22px;    
+    line-height: 28px;
+    font-family: 'Montserrat',serif;
+    border: 0px;
+    margin-top: 15px;
+
+    
+
+}
+.plan-btn-mid{
+    width: 205px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #c62314;
+    color: white;
+    font-size: 22px;    
+    line-height: 28px;
+    font-family: 'Montserrat',serif;
+    border: 0px;
+    margin-top: 15px;
+}
+.foter_down{
+    background-color: #130e27;
+    
+
+}
+.dising{    
+    max-width: 990px;
+    display: flex;
+    height: 190px;    
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+    
+}
+.dising_text{
+    font-size: 20px;
+    line-height: 22px;
+    font-family: 'PT Serif', serif;
+    color: white;
+    margin: 0px;
+}
+.footer_logo{
+    color:#c62314 ;
+    font-family: QuiteChocolatey;
+    font-size: 64px;
+    line-height: 24px; 
+}
+.desig{
+    color:#c62314 ;
+}
